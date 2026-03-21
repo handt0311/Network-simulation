@@ -2,7 +2,7 @@
 This project aims to evaluate the performance of the CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) protocol in a WiFi Ad-hoc network using the NS-3 simulator.
 
 
-```markdown
+
 ## 🚀 How to Run
    1. Move to ns-3 directory:
       ```bash
