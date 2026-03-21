@@ -1,25 +1,27 @@
 # Network-simualtion
-
+This project aims to evaluate the performance of the CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) protocol in a WiFi Ad-hoc network using the NS-3 simulator.
 
 
 ## 🚀 How to Run
    1. Move to ns-3 directory:
-
-   cd ~/ns-allinone-3.39/ns-3.39
+      ```bash
+      cd ~/ns-allinone-3.39/ns-3.39 
 
    2. Create a symbolic link to the project folder:
 
-   ln -s /home/minh/Network-simulation scratch/my-wifi
+      ln -s /home/minh/Network-simulation scratch/my-wifi 
+    
 
    (Note: You can replace "my-wifi" with any folder name)
 
    3. Build the project:
 
-   ./ns3 build
+      ./ns3 build 
 
    4. Run the simulation:
 
-   ./ns3 run "my-wifi/traffic" (cach chay sau khi co phan cua Dao + Dat)
+      ./ns3 run "my-wifi/traffic" (cach chay sau khi co phan cua Dao + Dat) 
+
 ## ⚠️ Note
 
    Each simulation must contain ONLY ONE main() function.
