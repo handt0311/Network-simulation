@@ -83,15 +83,15 @@ This project aims to evaluate the performance of the CSMA/CA (Carrier Sense Mult
 
    6. Run All Experiments  
 
-   6.1 Make the script executable
-            ```bash
-                  chmod +x run_all.sh
-            ```
+      6.1 Make the script executable
+         ```bash
+            chmod +x run_all.sh
+         ```
          
-   6.2 Execute the script
-            ```bash
-                  ./run_all.sh
-            ```
+      6.2 Execute the script
+         ```bash
+            ./run_all.sh
+         ```
 ## ⚠️ Note
 
    Each simulation must contain ONLY ONE main() function.
