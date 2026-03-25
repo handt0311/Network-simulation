@@ -34,16 +34,17 @@ This project aims to evaluate the performance of the CSMA/CA (Carrier Sense Mult
       ./ns3 run "my-wifi/traffic" 
       ```
 
-   5.  Create automation script
-      ### 5.1. Create file
+   5.  Create automation script  
+
+      5.1. Create file
             ```bash
             touch run_all.sh
             ```
-      ### 5.2. Open file
+      5.2. Open file
             ```bash
             nano run_all.sh
             ```
-      ### 5.3. Paste this script
+      5.3. Paste this script
             ```bash
                #!/bin/bash
 
@@ -79,13 +80,14 @@ This project aims to evaluate the performance of the CSMA/CA (Carrier Sense Mult
                   echo "Results saved in $FINAL_CSV"
             ```
       
-      6. Run All Experiments
-         ### 6.1. Make the script executable
+      6. Run All Experiments  
+
+         6.1. Make the script executable
             ```bash
                   chmod +x run_all.sh
             ```
          
-         ### 6.2. Execute the script
+         6.2. Execute the script
             ```bash
                   ./run_all.sh
             ```
